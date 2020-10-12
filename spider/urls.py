@@ -12,6 +12,15 @@ Class-based views
 Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
+
+
+    echo "# spider_project" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Aderinmola/spider_project.git
+git push -u origin main
 """
 from django.contrib import admin
 from django.urls import include, path
